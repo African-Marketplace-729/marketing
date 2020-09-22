@@ -95,7 +95,7 @@ header img{
 }
 /*Background Image*/
 .HomePageBackgroundImage{
-    background:url('Images/photo-1545510120-66374ff70e4f.jpg');
+    background:url('/marketing/Images/photo-1545510120-66374ff70e4f.jpg');
     background-size:100% 100%;
     background-repeat:no-repeat;
     height:30rem;

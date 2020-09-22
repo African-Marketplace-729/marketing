@@ -51,6 +51,13 @@ body{
     margin-left:5%;
     margin-right:5%;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 /*Header*/
 header{
     background-color:#1D2121;
@@ -93,6 +100,72 @@ header img{
     width:30rem;
     margin-top:0.5%;
 }
+.fa {
+    
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-right:2%;
+
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+/*Desicion Section*/
+.DecisionSection { 
+    background-color:#E84C3D;
+    margin-top:2%;
+    padding-bottom:2.5%;
+   
+}
+.DecisionSection h2{
+    text-align:center;
+    font-size:2.5rem;
+    padding-top:1%;
+}
+.DecisionSection p{
+    text-align: center;
+    padding-top:2%;
+    font-size:1.5rem;
+    margin-left:10%;
+    margin-right:10%;
+}
+.DecisionButton button{
+    font-size:1.5rem;
+    margin-top:2%;
+    background-color:#1D2121;
+    color:#F3F3F3;
+    border-radius:8px;
+
+ }
+ .DecisionButton{
+     display:flex;
+     justify-content: center;
+ }
+ /*Reviews Section*/
+ .Reviews{
+    margin-top:2%;
+ }
+ .Reviews h2{
+     text-align:center;
+     font-size:2rem;
+ }
+ .Reviews p{
+     text-align:center;
+     padding-top:2%;
+     font-size:1rem;
+ }
+ .Reviews img{
+    width:20rem;
+    height:20rem;
+   padding-top:1%;
+ }
+ .ReviewPhotos{
+     display:flex;
+     justify-content: space-evenly;
+     margin-top:3%;
+ }
 /*Footer styles*/
 footer{
     background-color:#1D2121;
@@ -124,4 +197,27 @@ footer nav a:hover{
     header img{
       display:none;
     }
+    .Reviews img{
+        width:15rem;
+        height:15rem;
     }
+    @media(max-width: 850px){
+        .Reviews img{
+            width:12rem;
+            height:12rem;
+        }
+    }
+}
+    @media(max-width: 700px){
+        .Reviews img{
+            width:10rem;
+            height:10rem;
+        }
+    }
+    @media(max-width: 500px){
+        .Reviews img{
+            width:7rem;
+            height:7rem;
+        }
+    }
+

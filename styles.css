@@ -86,7 +86,12 @@ section{
     width: 80%;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 
 /*this is for contact Us*/
+.teamA{
+    display: flex;
+    justify-content: space-around;
+}

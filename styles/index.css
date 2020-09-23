@@ -97,7 +97,7 @@ header nav a:hover{
     font-size:1.5rem;
     color:#1D2121;
     border-radius:8px;
-    transition-delay: 0.1s;
+    transition-delay: 0.3s;
     height:1.7rem;
     width:100%;
     text-align:center;
@@ -247,7 +247,7 @@ footer nav a:hover{
     font-size:1.5rem;
     color:#1D2121;
     border-radius:8px;
-    transition-delay: 0.1s;
+    transition-delay: 0.2s;
     height:2rem;
     width:100%;
     text-align:center;

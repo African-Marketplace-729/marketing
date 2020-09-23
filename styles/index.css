@@ -254,3 +254,13 @@ header img{
   display:none;
 }
 }
+@media(max-width: 500px){
+    .BuySection img{
+    height:20rem;
+    width:20rem;
+    }
+    .SellSection img{
+        height:20rem;
+        width:20rem;
+        }
+    }

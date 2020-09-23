@@ -106,17 +106,14 @@ header img{
     text-align: center;
     text-decoration: none;
     margin-right:2%;
-
   }
   
-  .fa:hover {
-    opacity: 0.7;
-  }
 /*Desicion Section*/
 .DecisionSection { 
     background-color:#E84C3D;
     margin-top:2%;
     padding-bottom:2.5%;
+    padding-top:2.5%;
    
 }
 .DecisionSection h2{
@@ -156,6 +153,9 @@ header img{
      padding-top:2%;
      font-size:1rem;
  }
+ .Reviews p:hover{
+    font-size:2.2rem;
+ }
  .Reviews img{
     width:20rem;
     height:20rem;
@@ -193,7 +193,7 @@ footer nav a:hover{
     font-size:2rem;
     color:#1D2121;
 }
-@media(max-width: 1000px){
+@media(max-width: 900px){
     header img{
       display:none;
     }

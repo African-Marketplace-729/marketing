@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+/*Home Page*/
 }
 body{
     font-size:62.5%;
@@ -94,6 +95,8 @@ header nav a:hover{
     background-color:#E84C3D;
     font-size:2rem;
     color:#1D2121;
+    border-radius:8px;
+
 }
 header img{
     height:4rem;
@@ -241,7 +244,11 @@ footer nav a:hover{
     font-size:2rem;
     color:#1D2121;
 }
-@media(max-width: 1000px){
+@media(max-width: 900px){
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
 .BuySection{
     flex-direction: column;
 }
@@ -252,6 +259,7 @@ header img{
   display:none;
 }
 }
+
 header{
     background-color:#1D2121;
     width:100%;
@@ -412,4 +420,4 @@ footer nav a:hover{
             width:7rem;
             height:7rem;
         }
-    }
+}

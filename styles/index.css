@@ -135,7 +135,14 @@ h2{
    font-size:1.5rem;
    margin-top:3%;
    background-color:#1D2121;
-   color:#F3F3F3
+   color:#F3F3F3;
+   padding-top:1%;
+   padding-bottom:1%;
+   padding-right:.4%;
+   padding-left:.4%;
+   border-radius: 8px;
+   width:8rem;
+   text-align:center;
 }
 .AboutButton{
     display:flex;
@@ -155,6 +162,7 @@ color:#1D2121;
     margin-top:10%;
     display:flex;
     margin-left:1%;
+    justify-content:space-evenly
   
     
     
@@ -181,6 +189,7 @@ color:#1D2121;
     margin-top:10%;
     display:flex;
     margin-left:1%;
+    justify-content:space-evenly
   
     
     
@@ -311,13 +320,17 @@ header img{
        margin-right:10%;
    }
    .DecisionButton button{
-       font-size:2rem;
-       margin-top:2%;
-       background-color:#1D2121;
-       color:#F3F3F3;
-       border-radius:12px;
-       width:6.5rem;
-       height:2.6rem;
+    font-size:2rem;
+    margin-top:3%;
+    background-color:#1D2121;
+    color:#F3F3F3;
+    padding-top:.5%;
+    padding-bottom:.5%;
+    padding-right:.4%;
+    padding-left:.4%;
+    border-radius: 8px;
+    width:7rem;
+    text-align:center;
    
     }
     .DecisionButton{
@@ -332,13 +345,13 @@ header img{
     }
     .Reviews h2{
         text-align:center;
-        font-size:2rem;
+        font-size:2.5rem;
         color:#E84C3D
     }
     .Reviews p{
         text-align:center;
         padding-top:2%;
-        font-size:1rem;
+        font-size:1.5rem;
         color:#F3F3F3;
     }
     .Reviews p:hover{

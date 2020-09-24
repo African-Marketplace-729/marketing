@@ -415,13 +415,52 @@ footer nav a:hover{
     color: #E84C3D;
 }
 .team-member{
-    width: 33;
+    width: 33%;
 }
 .team-member img{
+    width: 80%;
+    height: 80%;
+}
+.team-container{
+    color: #1D2121;
+    padding: 1% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team h2{
+    color: #E84C3D;
+}
+.team-member{
+    margin: 3% 2%;
+    padding: 2% 3% 5%;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.8);
+    max-width: 33%;
+    min-width: 33%;
+    text-align: center;
+}
+.team-member h4{
+    font-size: larger;
+    font-weight: bolder;
     width: 100%;
-    height: 100%;
 }
 
+.team-member p{
+    font-size: medium;
+    width: 100%;
+    font-weight: bold;
+    margin: 2%;
+}
+@media(max-width: 500px){
+    .team-container img{
+        width:45%;
+        height:45%;
+    }
+    .team-member{
+        padding: 2% 3% 7%
+    }
+    
+}
 
 /*Contact Page*/
 html{

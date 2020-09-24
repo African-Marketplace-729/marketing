@@ -444,6 +444,15 @@ header img{
     font-weight: bold;
     margin: 2%;
 }
+@media(max-width: 800px){
+    .team-container img{
+        width:55%;
+        height:55%;
+    }
+    .team-member{
+        padding: 2% 3% 7%
+    }
+}
 @media(max-width: 500px){
     .team-container img{
         width:45%;
@@ -497,5 +506,8 @@ a{
     font-size: medium;
     width: 100%;
     
+}
+.team-memberB a{
+    font-size: 4rem;
 }
    
